@@ -36,5 +36,7 @@ burgerBtn.addEventListener('click', () =>{
 closeBurger.addEventListener("click", () => {
     burgerBtn.classList.remove('open');
     burgerMenu.classList.remove('open');
-    burgerNav.classList.remove('play')
+    burgerNav.classList.remove('play');
+    body.style.overflow = 'auto';
+    body.style.height = "auto";
 })
